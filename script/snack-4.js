@@ -8,9 +8,10 @@ let i = 0;
 //     c.push(a[i],b[i]); 
 // }
 
-while (c.length < a.length){  //SOLUZIONE WHILE
+do{
     c.push(a[i],b[i]); 
     i++
+} while (i< a.length){  //SOLUZIONE DO WHILE
 }
 
 console.log(c)
