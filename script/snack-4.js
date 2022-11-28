@@ -10,7 +10,7 @@ let i = 0;
 
 do{
     c.push(a[i],b[i]); 
-    i++
+    i++;
 } while (i< a.length){  //SOLUZIONE DO WHILE
 }
 
