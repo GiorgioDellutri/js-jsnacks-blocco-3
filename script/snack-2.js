@@ -13,4 +13,4 @@ while (sum < 50){
     sum += userNumber;
     numbers.push(userNumber);
 }
-console.log(sum)
+console.log(sum);
