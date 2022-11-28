@@ -3,13 +3,19 @@
 
 let firstArray = [2,4,56,73,21,566,778,10,9,5];
 let secondArray = [2,4,56,73,21,566];
-let addNumber;
 console.log(firstArray);
 console.log(secondArray);
+let addNumber = parseInt(prompt('Inserisci un numero'))
 
-while(firstArray.length === secondArray.length){
-    addNumber = parseInt(prompt('Inserisci numero'));
-    secondArray.push(addNumber);
+while(firstArray.length != secondArray.length){
+
+    if(firstArray.length < secondArray.length){
+        addNumber = parseInt(prompt('Inserisci un numero'));
+        firstArray.push(addNumber);
+    } else{
+        addNumber = parseInt(prompt('Inserisci un numero'));
+        secondArray.push(addNumber);
+    }
 }
 
 console.log(firstArray);
